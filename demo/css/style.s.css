@@ -1,0 +1,5 @@
+body {
+  -moz-columns: 20px 2;
+  -webkit-columns: 20px 2;
+  columns: 20px 2;
+}
