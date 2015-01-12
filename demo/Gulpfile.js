@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 gulp.task('default',function(){
   gulp.src('*.html')
       .pipe(include({
-        baseUrl:"../../sinclude/"
+        baseUrl:"sinclude/"
       }))
       .pipe(gulp.dest('dest/'));
 });
